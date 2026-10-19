@@ -40,5 +40,16 @@ Este repositório demonstra a construção de um pipeline de **Engenharia de Dad
 ## 🚀 Como Executar o Pipeline Localmente
 
 1. Clone o repositório:
-   ```bash
-   git clone [https://github.com/amanda-coraiola/retail-etl-pipeline-python.git](https
+   git clone [https://github.com/amanda-coraiola/retail-etl-pipeline-python.git](https://github.com/amanda-coraiola/retail-etl-pipeline-python.git)
+Acesse o diretório do projeto:
+
+cd retail-etl-pipeline-python
+Instale as dependências:
+
+pip install -r requirements.txt
+Execute o pipeline de ETL:
+
+python pipeline_etl.py
+Os arquivos dimensionais em formato CSV (fato_vendas.csv, dim_produtos.csv, dim_lojas.csv, dim_tempo.csv) serão gerados automaticamente na raiz do projeto!
+
+Desenvolvido por Amanda Coraiola.
